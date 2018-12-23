@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "VMPrefixName": {
+            "value": "VMname"
+        },
+        "adminUsername": {
+            "value": "orz"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountName": {
+            "value": "alteonstorage860"
+        },
+        "vmSize": {
+            "value": "Standard_D2"
+        },
+        "vmCount": {
+            "value": "2"
+        },
+        "dnsNameForPublicIP1": {
+            "value": "vmname"
+        },
+        "dnsNameForPublicIP2": {
+            "value": "vmname2"
+        },
+        "ClientID": {
+            "value": "asdasdasd"
+        },
+        "ClientSecret": {
+            "value": null
+        },
+        "TenantID": {
+            "value": "asdasdasdasda"
+        },
+        "DNSServerIP": {
+            "value": "8.8.8.8"
+        },
+        "RealsCount": {
+            "value": "2"
+        },
+        "SLBPortNumber": {
+            "value": "80"
+        },
+        "SLBMetric": {
+            "value": "leastconns"
+        },
+        "Real1": {
+            "value": "1.1.1.1"
+        },
+        "Real2": {
+            "value": "1.1.1.2"
+        }
+    }
+}
