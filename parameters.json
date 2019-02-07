@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "westeurope"
+            "value": "centralus"
         },
         "VMPrefixName": {
-            "value": "VMname"
+            "value": "AlteonPrefix"
         },
         "adminUsername": {
             "value": "orz"
@@ -15,7 +15,7 @@
             "value": null
         },
         "storageAccountName": {
-            "value": "alteonstorage860"
+            "value": "alteonstorage2644"
         },
         "vmSize": {
             "value": "Standard_D2"
@@ -24,37 +24,22 @@
             "value": "2"
         },
         "dnsNameForPublicIP1": {
-            "value": "vmname"
+            "value": "alteon1"
         },
         "dnsNameForPublicIP2": {
-            "value": "vmname2"
+            "value": "alteon2"
         },
         "ClientID": {
-            "value": "asdasdasd"
+            "value": "clientid"
         },
         "ClientSecret": {
             "value": null
         },
         "TenantID": {
-            "value": "asdasdasdasda"
+            "value": "tenatnid"
         },
         "DNSServerIP": {
             "value": "8.8.8.8"
         },
-        "RealsCount": {
-            "value": "2"
-        },
-        "SLBPortNumber": {
-            "value": "80"
-        },
-        "SLBMetric": {
-            "value": "leastconns"
-        },
-        "Real1": {
-            "value": "1.1.1.1"
-        },
-        "Real2": {
-            "value": "1.1.1.2"
-        }
     }
 }
